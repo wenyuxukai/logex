@@ -10,6 +10,7 @@ public class test {
     /**
      *  本工具基于springboot和mybatis-plus
      *  项目中需使用mybatis-plus
+     *  在子类实体类中需配置日志或异常信息表名
      *  使用logHelper或exceptionHelper保存日志或异常信息
      *  使用@Autowired注解在对应的项目位置注入logHelper或exceptionHelper类对象
      *  @Autowired
